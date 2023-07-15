@@ -1,0 +1,33 @@
+.pagination {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-link {
+  background-color: #f0f0f1;
+  margin: 0 0.3rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.pagination-link:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.pagination-link-active {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}

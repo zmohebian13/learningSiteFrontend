@@ -1,0 +1,18 @@
+.footer-item-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.footer-item-title::before{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+    border-radius: 0.7rem;
+    opacity: 0.2;
+    transform: rotate(45deg);
+}
+

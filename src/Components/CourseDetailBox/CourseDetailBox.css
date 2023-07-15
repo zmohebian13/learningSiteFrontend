@@ -1,0 +1,35 @@
+.course-detail-box {
+  box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.course-detail-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-detail-box-right-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-left: 10px;
+}
+
+.course-detail-box-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-detail-box-title {
+  font-size: 1.5rem;
+  color: #5e6269;
+}
+
+.course-detail-box-subtitle {
+  font-size: 1.3rem;
+  color: #7d7e7f;
+}

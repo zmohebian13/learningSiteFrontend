@@ -1,0 +1,125 @@
+.main-navbar-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.main-navbar-right {
+  display: flex;
+}
+
+.main-navbar-logo {
+  width: 80px;
+}
+
+.navbar-right-home-text {
+  font-family: "IRANSans";
+  margin-left: 0.5rem;
+}
+
+.navbar-right-home-text:hover {
+  color: #7f8187;
+}
+
+#basic-nav-dropdown {
+  font-family: "IRANSans";
+  font-size: 1.4rem;
+  color: var(--dark-color);
+}
+
+#basic-nav-dropdown:hover {
+  color: #7f8187;
+}
+
+#basic-nav-dropdown::after {
+  margin-right: 5px;
+}
+
+.nav-item .dropdown {
+  text-align: center;
+}
+
+.main-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar-search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+
+.left-navbar-search-icon {
+  color: var(--white-color);
+  font-size: 1.8rem;
+  transition: all 400ms ease;
+}
+
+.left-navbar-search-icon:hover {
+  transform: scale(1.3);
+}
+
+.left-navbar-cart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f7;
+  color: var(--dark-color);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  transition: all 300ms ease;
+}
+
+.left-navbar-cart-icon {
+  color: var(--dark-color);
+  font-size: 2rem;
+  transition: all 300ms ease;
+}
+
+.left-navbar-cart-icon:hover {
+  color: var(--primary-color);
+  transform: scale(1.3);
+}
+
+.left-navbar-profile {
+  background-color: aquamarine;
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  border-radius: 5px;
+  margin-right: 1rem;
+  transition: all 400ms ease;
+  color: var(--primary-color);
+}
+
+.left-navbar-profile:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.dropdown-menu {
+  text-align: right !important;
+  border-bottom: 3px solid var(--primary-color) !important;
+}
+
+.dropdown-item {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.5rem !important;
+  color: var(--dark-color) !important;
+}
